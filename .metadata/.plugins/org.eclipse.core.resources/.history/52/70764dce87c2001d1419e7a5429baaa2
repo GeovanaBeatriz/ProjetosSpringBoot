@@ -1,0 +1,5 @@
+package com.geovanabeatriz.course.entities;
+
+public class User {
+
+}
