@@ -3,6 +3,7 @@ package com.geovanabeatriz.course.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.geovanabeatriz.course.entities.pk.OrderItemPK;
 
 import jakarta.persistence.EmbeddedId;
@@ -16,7 +17,7 @@ public class OrderItem implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@EmbeddedId //chave composta
-	private OrderItemPK id;
+	private OrderItemPK id = new OrderItemPK();
 	//Essa é uma tabela de associação, assim, vai ter duas chaves primarias,
 	//para isso acontecer em POO, se deve criar uma tabela com as chaves, e depois
 	// associar a tabela, que no caso foi a OrderItem, com a associação
@@ -36,6 +37,7 @@ public class OrderItem implements Serializable{
 		this.price = price;
 	}
 	
+	@JsonIgnore
 	public Order getOrder() {
 		return id.getOrder();
 	}
