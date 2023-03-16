@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Profile;
 
 import com.geovanabeatriz.course.entities.Category;
 import com.geovanabeatriz.course.entities.Order;
+import com.geovanabeatriz.course.entities.OrderItem;
 import com.geovanabeatriz.course.entities.Product;
 import com.geovanabeatriz.course.entities.User;
 import com.geovanabeatriz.course.entities.enums.OrderStatus;
@@ -51,6 +52,15 @@ public class TestConfig implements CommandLineRunner {
 		productRepository.saveAll(Arrays.asList(p1, p2, p3, p4, p5));
 		
 		
+		p1.getCategories().add(cat2); //Associação entre objetos (Muitos para muitos)
+		p2.getCategories().add(cat1);
+		p2.getCategories().add(cat3);
+		p3.getCategories().add(cat3);
+		p4.getCategories().add(cat3);
+		p5.getCategories().add(cat2);
+		
+		productRepository.saveAll(Arrays.asList(p1, p1, p3, p4, p5));
+		
 		User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456");
 		User u2 = new User(null, "Alex Green", "alex@gmail.com", "977777777", "123456"); 
 
@@ -61,6 +71,12 @@ public class TestConfig implements CommandLineRunner {
 		
 		userRepository.saveAll(Arrays.asList(u1, u2));
 		orderRepository.saveAll(Arrays.asList(o1, o2,o3));
+		
+		OrderItem oi1 = new OrderItem(o1, p1, 2, p1.getPrice());
+		OrderItem oi2 = new OrderItem(o1, p3, 1, p3.getPrice());
+		OrderItem oi3 = new OrderItem(o2, p3, 2, p3.getPrice());
+		OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
+		
 		
 	}
 	
