@@ -1,0 +1,5 @@
+package com.geovanabeatriz.course.resources.exceptions;
+
+public class StandardError {
+
+}
