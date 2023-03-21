@@ -5,3 +5,6 @@ I'm still learning about spring boot, because of that I've choosen to keep my fi
 
 ## Project course
 ### Description: 
+
+## Workshop - MongoDB + Spring Boot
+### Description: 
