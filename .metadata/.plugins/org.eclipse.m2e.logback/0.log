@@ -972,3 +972,12 @@
 2023-03-21 14:26:36,127 [Worker-33: Launching workshopmongo-1 - Workshopmongo1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-21 14:26:36,137 [Worker-33: Launching workshopmongo-1 - Workshopmongo1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-03-21 14:26:36,141 [Worker-33: Launching workshopmongo-1 - Workshopmongo1Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\temp\projetos\workshopmongo-1\src\test\resources
+2023-03-22 13:45:06,603 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-22 13:45:06,668 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-22 13:45:06,676 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\temp\projetos\workshopmongo-1\src\test\resources
+2023-03-22 13:49:52,019 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-22 13:49:52,045 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-22 13:49:52,050 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\temp\projetos\workshopmongo-1\src\test\resources
+2023-03-22 13:50:35,495 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-22 13:50:35,616 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-22 13:50:35,620 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\temp\projetos\workshopmongo-1\src\test\resources
