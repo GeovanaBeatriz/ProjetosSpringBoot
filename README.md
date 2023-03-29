@@ -5,12 +5,7 @@ I'm still learning about spring boot, because of that I've choosen to keep my fi
 
 ## Project course
 ### Description: 
-<<<<<<< HEAD
-
-## Workshop - MongoDB + Spring Boot
-### Description: 
-=======
-Aplicação back-end com Spring boot, onde é possível manipular a compra de produtos. Esta aplicação foi feita através de um curso de Java da Udemy.
+Back-end application with Spring boot, where it is possible to manipulate the purchase of products. This application was made using a Udemy Java course.
 
 ### Object Diagram
 ![image](https://user-images.githubusercontent.com/79049461/228039628-b87da606-d5ae-492c-958e-63d7cb043d6f.png)
@@ -75,4 +70,3 @@ cd ProjetosSpringBoot/workshopmongo-1
 Geovana Beatriz
 
 https://www.linkedin.com/in/geovana-beatriz-95a018198/
->>>>>>> dafaa5ab49fc18b86694750f27a8ac1c6b8a482a
